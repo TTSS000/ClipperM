@@ -8,6 +8,11 @@
 #property version   "1.00"
 #property strict
 
+// Clipper M : USDJPY H1
+// London Open Buy condition : MA_L < MA_M < MA_S < Candle 
+// London Open Sell condition : Candle < MA_S < MA_M < MA_L
+// Close at London fixing 
+
 // 1 jikan ashi
 input int jisa = 7;
 input int asiantime_end_JST_winter = 17;
